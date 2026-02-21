@@ -1,2 +1,51 @@
 # Packet-Tracer_Home-Labs
 Networking Labs using Packet Tracer
+[Using RIP Protocol.txt](https://github.com/user-attachments/files/25454451/Using.RIP.Protocol.txt)
+Routing using RIP Protocol
+
+## Overview ##
+
+This lab demonstrates
+- Manual IP Addressing
+- RIP configuration
+- Subnetting
+- Trouble shooting
+- Verification
+
+## Topology ##
+
+-Lab 1-
+2 Routers
+2 Switches
+2 PC's
+
+-IP Addressing-
+R&D: 192.168.0.0/30
+Gateway: 192.168.0.1
+
+ENG: 192.168.100.2/30
+Gateway: 192.168.100.1
+
+-Lab 2-
+5 Routers
+4 Switches
+5 PC's/Laptops
+
+-IP Addressing-
+Marketing: 192.168.0.0/30
+Gateway: 192.168.0.1
+
+Sales: 192.168.100.0/30
+Gateway: 192.168.0.1
+
+Accounting: 192.168.200.0/30
+Gateway: 192.168.200.1
+
+Engineering: 172.16.100.0/24
+Gateway: 172.16.100.1
+
+## Notes & Skills Demonstrated ##
+
+- Router / Switch / End device configuration
+- Basic Troubleshooting
+- For lab 1, end devices were not communicating. RIP was misconfigured on internal LAN networks. RIP protocol was adjusted after troubleshooting and network was then able to communicate between local area networks.
