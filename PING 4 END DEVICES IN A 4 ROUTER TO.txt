@@ -1,0 +1,36 @@
+PING 4 END DEVICES IN A 4 ROUTER TOPOLOGY
+
+## Overview ##
+
+This lab demonstrates
+- Troubleshooting
+- Cisco Discovery Protocol
+- Subnetting
+- Verification
+
+## Topology ##
+
+- Lab 1 -
+- 4 routers
+- 4 switches
+- 4 computers
+
+- IP Addressing -
+User 1: 10.1.1.0/29
+Gateway: 10.1.1.1
+
+User 2: 10.2.1.0/29
+Gateway: 10.2.1.1
+
+User 3: 10.3.1.0/29
+Gateway: 10.3.1.1
+
+User 4: 10.4.1.0/29
+Gateway: 10.4.1.1
+
+## Notes & Skills Demonstrated ##
+
+- The goal was to identify all router interfaces and allow computers to ping one another.
+- Point to point links / Lan network configuration
+- Identifying neighboring interfaces using CDP
+- Initial pings were successful after troubleshooting. PC 1 wasn't able to ping any other user until P2P interfaces on R1 were correctly configured (they were switched originally during start up configuration).
