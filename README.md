@@ -30,6 +30,7 @@ I currently hold the **Microsoft Azure Fundamentals (AZ-900) certification and t
 
 ## Get in Touch 📬
 
-- **[LinkedIn]**(https://www.linkedin.com/in/leeroy-sullivan/)
+**LinkedIn**
+**(https://www.linkedin.com/in/leeroy-sullivan/)**
 
 
